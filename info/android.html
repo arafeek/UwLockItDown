@@ -6,51 +6,72 @@
     <title>UWlockitdown - Android</title>
 
     <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
+
     <link href="../foundation-5.2.1/css/normalize.css" rel="stylesheet" />
     <link href="../foundation-5.2.1/css/foundation.css" rel="stylesheet" />
     <link href="../custom/CustomStyleSheet.css" rel="stylesheet" />
     <script src="../foundation-5.2.1/js/vendor/modernizr.js"></script>
 </head>
 <body>
-
-    <nav class="top-bar docs-bar hide-for-small" data-topbar>
-        <ul class="title-area">
-            <li class="name">
-                <h1><a href="/UwLockItDown/">UWlockitdown</a></h1>
-            </li>
-            <li class="toggle-topbar menu-icon"><a href="#"></a></li>
-        </ul>
-
-        <section class="top-bar-section">
-            <!-- Right Nav Section -->
-            <ul class="right">
-                <li><a href="#">Twitter</a></li>
-                <li class="has-dropdown">
-                    <a href="#">Learn More</a>
-                    <ul class="dropdown">
-                        <li><a href="#">Passwords</a></li>
-                        <li><a href="#">Encryption</a></li>
-                        <li><a href="#">Losing your phone</a></li>
-                    </ul>
-                </li>
-                <li class="has-dropdown">
-                    <a href="#">Get Secure</a>
-                    <ul class="dropdown" data-options="deep_linking:true">
-                        <li><a href="#password">Set up a password</a></li>
-                        <li><a href="#encryption">Encrypt your device</a></li>
-                        <li><a href="#findPhone">Enable phone location software</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-    </nav><!--/Topbar-->
-
+    <div class="header-large">
+        <div class="row">
+            <div class=" large-12">
+                <nav class="top-bar hide-for-small" data-topbar>
+                    <div class="uw-logo left">
+                        <a href="http://uwaterloo.ca" style="width:169px">
+                            <img class="header-logo" style="width:169px; padding-left:10px; margin-right:25px" src="../Images/logo-uwsmall.png" />
+                        </a>
+                    </div>
+                    <section class=" top-bar-section">
+                        <ul class="middle">
+                            <li><h3 class="title" style="color:#F7941D; margin-top:22px">#UWlockitdown</h3></li>
+                        </ul>
+                    </section>
+                    <section class="top-bar-section">
+                        <!-- Right Nav Section -->
+                        <ul class="right">
+                            <li><a href="#">Twitter</a></li>
+                            <li class="has-dropdown">
+                                <a href="#">Learn More</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Passwords</a></li>
+                                    <li><a href="#">Encryption</a></li>
+                                    <li><a href="#">Losing your phone</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Get Secure</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Set up a password</a></li>
+                                    <li><a href="#">Encrypt your device</a></li>
+                                    <li><a href="#">Enable phone location software</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </nav>
+            </div>
+        </div>
+    </div>
+<!--/Topbar-->
     <div class="off-canvas-wrap">
         <div class="inner-wrap">
             <nav class="tab-bar show-for-small">
                 <section class="left-small">
-                    <a class="left-off-canvas-toggle menu-icon"><span>UWlockitdown</span></a>
+                    <a class="left-off-canvas-toggle menu-icon"><span></span></a>
+
                 </section>
+                <section class="middle tab-bar-section" >
+                <div class="uw-logo" style="display:inline-block">
+                    <a href="http://uwaterloo.ca" style="width:150px">
+                        <img class="header-logo" style="width:140px; margin-left:0; margin-right:25px; margin-top:-15px" src="../Images/logo-uwsmall.png" />
+                    </a>
+                </div>
+                <div class="middletab-bar-section" style="display:inline-block">
+                    <h1 class="title" style="color:#F7941D">#UWlockitdown</h1>
+                </div>
+                </section>
+                
 
                 <section class="right-small">
                     <a class="right-off-canvas-toggle menu-icon"><span></span></a>
@@ -70,9 +91,9 @@
             <aside class="right-off-canvas-menu">
                 <ul class="off-canvas-list">
                     <li><label>Get Secure</label></li>
-                    <li><a href="#password">Set up a password</a></li>
-                    <li><a href="#encryption">Encrypt your device</a></li>
-                    <li><a href="#findPhone">Enable phone location software</a></li>
+                    <li class="make-change"><a href="#password">Set up a password</a></li>
+                    <li class="make-change"><a href="#encryption">Encrypt your device</a></li>
+                    <li class="make-change"><a href="#findPhone">Enable phone locating software</a></li>
                     <li><label>Learn More</label></li>
                     <li><a href="#">Passwords</a></li>
                     <li><a href="#">Encryption</a></li>
@@ -81,7 +102,24 @@
             </aside>
             <a class="exit-off-canvas" href="#"></a>
 <!--/miniBar-->
-            <div id="content">   
+
+
+            <div id="content">
+                <div class="section-header">
+                    <div class="row">
+                        <div class="large-12">
+                            <div class="title-holder">
+                                <h1 class="page-title">Setting up a password</h1>
+                            </div>
+                        </div>
+                        <div class="bread-holder">
+                            <ul class="breadcrumbs">
+                                <li><a href="#">Android</a></li>
+                                <li class="current" style="color:#fff"><a href="#">Set up a password</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>   
                 <div class="row">
                     <div class="small-0 medium-2 large-2 columns hide-for-small">
                         <div class="left-menu-holder">
@@ -92,11 +130,50 @@
                             </ul>
                         </div>
                     </div>
+                    <!--Steps-->
                     <div class="small-12 medium-8 large-8 columns">
                         <div class="tabs-content">
                             <div class="content active" id="password">
-                                <h1 class="page-title">Setting up a password on your Android device</h1>
                                 <div class="info-body">
+                                    <div class="step">
+                                        <div class="row" data-equalizer>
+                                            <div class="large-6 columns panel" data-equalizer-watch>
+                                                <p>1) Open <strong>Settings</strong> and from there, navigate to
+                                                   <strong>Security -> Screen Lock</strong>.</p>
+                                            </div>
+                                            <div class="large-6 columns panel" data-equalizer-watch>
+                                                <img src="http://placehold.it/320x480" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="step">
+                                        <div class="row" data-equalizer>
+                                            <div class="large-6 columns panel" data-equalizer-watch>
+                                                <p>
+                                                    2) Here you will be presented with different options: <strong>Pattern, PIN and Password</strong>.
+                                                       Pattern is a simple connect the dots, PIN is a numeric passcode and Password is exactly what it sounds like.
+                                                       <strong>NB:</strong> If you ever want to disable your password, navigate back to this section and select <strong>None</strong>.
+                                                </p>
+                                            </div>
+                                            <div class="large-6 columns panel" data-equalizer-watch>
+                                                <img src="http://placehold.it/320x480" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="step">
+                                        <div class="row" data-equalizer>
+                                            <div class="large-6 columns panel" data-equalizer-watch>
+                                                <p>
+                                                    3) After selecting and setting your security option, you may also se a lock timer which will cause your
+                                                       device to lock itself after a period of inactivity.
+                                                </p>
+                                            </div>
+                                            <div class="large-6 columns panel" data-equalizer-watch>
+                                                <img src="http://placehold.it/320x480" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--
                                     <p>1) Go to <strong>Settings</strong></p>
                                     <p>2) Under Personal, navigate to <strong>security</strong></p>
                                     <img style="max-width:40%; max-height:40%" src="../Images/android-1.png" />
@@ -111,6 +188,7 @@
                                     <p>4) After setting your security option, you can slo set a lock timer which will cause your device to lock itself after a set period of inactivity</p>
                                     <img style="max-width:40%; max-height:40%" src="../Images/android-4.png" />
                                     <p>5) You have secured your device and from now on will be promted to enter your password upon unlocking the screen.</p>
+                                        -->
                                 </div>
                             </div>
                             <div class="content" id="encryption">
@@ -150,9 +228,9 @@
                     <div class="small-0 medium-2 large-2 columns hide-for-small">
                         <div class="tab-holder">
                             <dl class="tabs" data-tab data-options="deep_linking:true, scroll_to_content: false">
-                                <dd class="active"><a href="#password">Setting up a password</a></dd>
-                                <dd><a href="#encryption">Encrypting your device</a></dd>
-                                <dd><a href="#findPhone">Enabling phone locating software</a></dd>
+                                <dd class="active"><a href="#password">Set up a password</a></dd>
+                                <dd><a href="#encryption">Encrypt your device</a></dd>
+                                <dd><a href="#findPhone">Enable phone locating software</a></dd>
                             </dl>
                         </div>
                     </div>
@@ -166,6 +244,17 @@
     <script src="../foundation-5.2.1/js/foundation.min.js"></script>
     <script>
         $(document).foundation();
+
+        $('dd').click(function () {
+            var title = $(this).text();
+            $('.page-title').text(title);
+            $('.current').text(title);
+        });
+        $('.make-change').click(function () {
+            var title = $(this).text();
+            $('.page-title').text(title);
+            $('.current').text(title);
+        });
     </script>
 </body>
 </html>
