@@ -105,6 +105,11 @@
 .top-bar-section ul
 {
     margin-top:19px;
+    background-color:#252525;
+}
+.top-bar-section ul li
+{
+    height:69px;
 }
 .top-bar-section li:not(.has-form) a:not(.button) 
 {
