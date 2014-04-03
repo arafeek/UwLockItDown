@@ -1,13 +1,10 @@
 ﻿
-.page-title
-{
-    font-size:1.6rem;
-    background:#000;
-    color:#fff;
-    padding:10px;
-    border-radius:3px;
-    margin-bottom:0;
 
+.global-footer
+{
+    height:40px;
+    width:100%;
+    background-color:#252525;
 }
 .header-logo
 {
@@ -25,12 +22,11 @@
     border-bottom-left-radius:3px;
     border-bottom-right-radius:3px;
 }
-.global-footer
+.info-body .warning
 {
-    height:40px;
-    width:100%;
-    background-color:#252525;
+    margin-bottom:0;
 }
+
 .orbit-container 
 {
     width: 80%;
@@ -62,6 +58,16 @@
 .os-menu-left li
 {
     margin-top:20px;
+}
+.page-title
+{
+    font-size:1.6rem;
+    background:#000;
+    color:#fff;
+    padding:10px;
+    border-radius:3px;
+    margin-bottom:0;
+
 }
 .splash-holder {
     margin: 10px auto;
@@ -104,10 +110,7 @@
 {
 background: #252525;
 }
-.info-body .warning
-{
-    margin-bottom:0;
-}
+
 .warning-box
 {
     border-right:1px solid #ededed;
