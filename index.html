@@ -16,36 +16,54 @@
 </head>
 <body style="background-color:#F7941D">
     <div id="content">
-        <nav class="top-bar hide-for-small" data-topbar>
-            <ul class="title-area">
-                <li class="name">
-                    <h1><a href="/UwLockItDown/">UWlockitdown</a></h1>
-                </li>
-                <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
-            </ul>
-            <section class="top-bar-section">
-                <!-- Right Nav Section -->
-                <ul class="right">
-                    <li><a href="#">Twitter</a></li>
-                    <li class="has-dropdown">
-                        <a href="#">Learn More</a>
-                        <ul class="dropdown">
-                            <li><a href="#">Passwords</a></li>
-                            <li><a href="#">Encryption</a></li>
-                            <li><a href="#">Losing your phone</a></li>
+        <div class="header-large">
+            <div class="row">
+                <div class=" large-12" >
+                   <nav class="top-bar hide-for-small" data-topbar>
+                        <!--<ul class="title-area">
+                            <li class="name">
+                                <h1><a href="/UwLockItDown">UWlockitdown</a></h1>
+                            </li>
+                            <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
                         </ul>
-                    </li>
-                    <li class="has-dropdown">
-                        <a href="#">Get Secure</a>
-                        <ul class="dropdown">
-                            <li><a href="#">Set up a password</a></li>
-                            <li><a href="#">Encrypt your device</a></li>
-                            <li><a href="#">Enable phone location software</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
-        </nav><!--/top bar-->
+                        -->
+                        <div class="uw-logo left">
+                            <a href="http://uwaterloo.ca" style="width:169px">
+                                <img class="header-logo" style="width:169px; padding-left:10px; margin-right:25px" src="Images/logo-uwsmall.png" />
+                            </a>
+                        </div>
+                           <section class=" top-bar-section">
+                               <ul class="middle">
+                                   <li><h3 class="title" style="color:#F7941D; margin-top:22px">#UWlockitdown</h3></li>
+                               </ul>
+                           </section>
+                           <section class="top-bar-section">
+                               <!-- Right Nav Section -->
+                               <ul class="right">
+                                   <li class="divider"></li>
+                                   <li><a href="#">Twitter</a></li>
+                                   <li class="has-dropdown">
+                                       <a href="#">Learn More</a>
+                                       <ul class="dropdown">
+                                           <li><a href="#">Passwords</a></li>
+                                           <li><a href="#">Encryption</a></li>
+                                           <li><a href="#">Losing your phone</a></li>
+                                       </ul>
+                                   </li>
+                                   <li class="has-dropdown">
+                                       <a href="#">Get Secure</a>
+                                       <ul class="dropdown">
+                                           <li><a href="#">Set up a password</a></li>
+                                           <li><a href="#">Encrypt your device</a></li>
+                                           <li><a href="#">Enable phone location software</a></li>
+                                       </ul>
+                                   </li>
+                               </ul>
+                           </section>
+                       </nav>
+                </div>
+            </div>
+        </div><!--/top bar-->
         <!--small bar-->
         <div class="off-canvas-wrap">
             <div class="inner-wrap">
@@ -87,7 +105,9 @@
             </div>
         </div>
     </div>
-
+    <div class="global-footer">
+        <div id="twitter-holder"></div>
+    </div>
 
     <script src="foundation-5.2.1/js/vendor/jquery.js"></script>
     <script src="foundation-5.2.1/js/foundation.min.js"></script>

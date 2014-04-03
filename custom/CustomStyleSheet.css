@@ -9,12 +9,27 @@
     margin-bottom:0;
 
 }
+.header-logo
+{
+   height:50%;
+}
+.header-large
+{
+    width:100%;
+    background-color:#252525;
+}
 .info-body
 {
     padding:10px;
     border:1px solid #ededed;
     border-bottom-left-radius:3px;
     border-bottom-right-radius:3px;
+}
+.global-footer
+{
+    height:40px;
+    width:100%;
+    background-color:#252525;
 }
 .orbit-container 
 {
@@ -76,6 +91,19 @@
 
     font-size:1.1rem;
 }
+.top-bar 
+{
+    background:#252525;
+    height:auto;
+}
+.top-bar-section ul
+{
+    margin-top:19px;
+}
+.top-bar-section li:not(.has-form) a:not(.button) 
+{
+background: #252525;
+}
 .info-body .warning
 {
     margin-bottom:0;
@@ -86,4 +114,11 @@
     border-left:1px solid #ededed;
     border-bottom:1px solid #ededed;
     padding:10px;
+}
+#twitter-holder
+{
+    height:40px;
+    width:40px;
+    border-radius:20px;
+    background:url(http://localhost:26373/Images/Twitter_logo_blue.png) no-repeat;
 }
