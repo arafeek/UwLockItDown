@@ -22,7 +22,7 @@ color: #f7941d;
 }
 .global-footer
 {
-    height:40px;
+    height:60px;
     width:100%;
     background-color:#252525;
     bottom:0;
@@ -54,17 +54,19 @@ color: #f7941d;
     text-align: center;
 }
 
-.os-icons {
+.os-icons 
+{
     list-style: none;
     margin: auto;
     display: inline;
 }
 
-    .os-icons li 
-    {
+.os-icons li 
+{
         display: inline-block;
         margin: 20px;
-    }
+}
+
 
 .os-menu-left
 {

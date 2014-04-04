@@ -15,7 +15,6 @@
 
 </head>
 <body style="background-color:#F7941D">
-    <div id="content">
         <div class="header-large">
             <div class="row">
                 <div class=" large-12" >
@@ -60,12 +59,12 @@
         <div class="off-canvas-wrap">
             <div class="inner-wrap">
                 <nav class="tab-bar show-for-small">
-                    <div class="uw-logo" style="display:inline-block">
+                    <!--<div class="uw-logo" style="display:inline-block">
                         <a href="http://uwaterloo.ca" style="width:150px">
                             <img class="header-logo" style="width:140px; margin-left:14px; margin-right:25px; margin-top:-15px" src="Images/logo-uwsmall.png" />
                         </a>
-                    </div>
-                    <div class="middle tab-bar-section" style="display:inline-block">
+                    </div>-->
+                    <div class="left" style="display:inline-block; padding-left:15px">
                         <h1 class="title" style="color:#F7941D">#UWlockitdown</h1>
                     </div>
 
@@ -90,6 +89,7 @@
                 </aside>
                 <a class="exit-off-canvas" href="#"></a>
                 <!--OS icons-->
+                <div id="content">
                 <div class="splash-holder">
                     <img style="height:587px"src="Images/KeepCalm.svg" />
                 </div>
@@ -104,7 +104,10 @@
             </div>
         </div>
     </div>
-    <div class="global-footer">
+    <div style="position:fixed" class="global-footer hide-for-small">
+        <div id="twitter-holder"></div>
+    </div>
+    <div style="position:relative" class="global-footer show-for-small show-for-medium-down">
         <div id="twitter-holder"></div>
     </div>
 
