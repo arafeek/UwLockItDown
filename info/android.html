@@ -23,37 +23,18 @@
                         </a>
                     </div>
                     <section class=" top-bar-section">
-                        <ul class="middle">
-                            <li><h3 class="title" style="color:#F7941D; margin-top:22px">#UWlockitdown</h3></li>
+                        <ul class="right">
+                            <li><h3 class="title" style="color:#F7941D; margin-top:5px">#UWlockitdown</h3></li>
                         </ul>
                     </section>
                     <section class="top-bar-section">
                         <!-- Right Nav Section -->
-                        <ul class="right">
-                            <li><a href="#">Twitter</a></li>
-                            <li class="has-dropdown">
-                                <a href="#">Learn More</a>
-                                <ul class="dropdown">
-                                    <li><a href="#">Passwords</a></li>
-                                    <li><a href="#">Encryption</a></li>
-                                    <li><a href="#">Losing your phone</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-dropdown">
-                                <a href="#">Get Secure</a>
-                                <ul class="dropdown">
-                                    <li><a href="#">Set up a password</a></li>
-                                    <li><a href="#">Encrypt your device</a></li>
-                                    <li><a href="#">Enable phone location software</a></li>
-                                </ul>
-                            </li>
-                        </ul>
                     </section>
                 </nav>
             </div>
         </div>
     </div>
-<!--/Topbar-->
+    <!--/Topbar-->
     <div class="off-canvas-wrap">
         <div class="inner-wrap">
             <nav class="tab-bar show-for-small">
@@ -61,22 +42,18 @@
                     <a class="left-off-canvas-toggle menu-icon"><span></span></a>
 
                 </section>
-                <section class="middle tab-bar-section" >
-               <!-- <div class="uw-logo" style="display:inline-block">
-                    <a href="http://uwaterloo.ca" style="width:150px">
-                        <img class="header-logo" style="width:140px; margin-left:0; margin-right:25px; margin-top:-15px" src="../Images/logo-uwsmall.png" />
-                    </a>
-                </div>
-                    -->
-                <div class="middletab-bar-section" style="display:inline-block">
-                    <h1 class="title" style="color:#F7941D">#UWlockitdown</h1>
-                </div>
+                <section class="middle tab-bar-section">
+                    <!-- <div class="uw-logo" style="display:inline-block">
+                         <a href="http://uwaterloo.ca" style="width:150px">
+                             <img class="header-logo" style="width:140px; margin-left:0; margin-right:25px; margin-top:-15px" src="../Images/logo-uwsmall.png" />
+                         </a>
+                     </div>
+                         -->
+                    <div class="middletab-bar-section" style="display:inline-block">
+                        <h1 class="title" style="color:#F7941D">#UWlockitdown</h1>
+                    </div>
                 </section>
-                
 
-                <section class="right-small">
-                    <a class="right-off-canvas-toggle menu-icon"><span></span></a>
-                </section>
             </nav>
             <aside class="left-off-canvas-menu">
                 <ul class="off-canvas-list">
@@ -88,21 +65,8 @@
                     <li><a href="/UwLockItDown/info/windowsphone.html">Windows Phone</a></li>
                 </ul>
             </aside>
-
-            <aside class="right-off-canvas-menu">
-                <ul class="off-canvas-list">
-                    <li><label>Get Secure</label></li>
-                    <li class="make-change"><a href="#password">Set up a password</a></li>
-                    <li class="make-change"><a href="#encryption">Encrypt your device</a></li>
-                    <li class="make-change"><a href="#findPhone">Enable phone locating software</a></li>
-                    <li><label>Learn More</label></li>
-                    <li><a href="#">Passwords</a></li>
-                    <li><a href="#">Encryption</a></li>
-                    <li><a href="#">Losing your phone</a></li>
-                </ul>
-            </aside>
             <a class="exit-off-canvas" href="#"></a>
-<!--/miniBar-->
+            <!--/miniBar-->
 
 
             <div id="content">
@@ -113,14 +77,24 @@
                                 <h1 class="page-title">Setting up a password</h1>
                             </div>
                         </div>
-                        <div class="bread-holder">
-                            <ul class="breadcrumbs">
-                                <li><a href="#">Android</a></li>
-                                <li class="current" style="color:#fff"><a href="#">Set up a password</a></li>
-                            </ul>
+                    </div>
+                </div>
+
+                <!--StickyContainer-->
+                <div class="row">
+                    <div class="large-1 columns"></div>
+                    <div class="small-12 large-11 columns">
+                        <div class="magellan-container" data-magellan-expedition="fixed">
+                            <dl class="sub-nav">
+                                <dd data-magellan-arrival="password"><a href="#password">Set up a password</a></dd>
+                                <dd data-magellan-arrival="findPhone"><a href="#findPhone">Enable phone location</a></dd>
+
+                            </dl>
                         </div>
                     </div>
-                </div>   
+                </div>
+                <!--/sticky container-->
+
                 <div class="row">
                     <div class="small-0 medium-2 large-2 columns hide-for-small">
                         <div class="left-menu-holder">
@@ -131,108 +105,61 @@
                             </ul>
                         </div>
                     </div>
+
                     <!--Steps-->
-                    <div class="small-12 medium-8 large-8 columns">
-                        <div class="tabs-content">
-                            <div class="content active" id="password">
-                                <div class="info-body">
-                                    <div class="step">
-                                        <div class="row" data-equalizer>
-                                            <div class="large-6 columns panel" data-equalizer-watch>
-                                                <p>1) Open <strong>Settings</strong> and from there, navigate to
-                                                   <strong>Security -> Screen Lock</strong>.</p>
-                                            </div>
-                                            <div class="large-6 columns panel" data-equalizer-watch>
-                                                <img src="http://placehold.it/320x480" />
-                                            </div>
+                    <div class="small-12 medium-10 large-10 columns">
+
+                        <div class="content">
+                            <div class="info-body">
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <h1 class="page-title" id="password">Set up a password</h1>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <p>
+                                                1) Open <strong>Settings</strong> and from there, navigate to
+                                                <strong>Security -> Screen Lock</strong>.
+                                            </p>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
                                         </div>
                                     </div>
-                                    <div class="step">
-                                        <div class="row" data-equalizer>
-                                            <div class="large-6 columns panel" data-equalizer-watch>
-                                                <p>
-                                                    2) Here you will be presented with different options: <strong>Pattern, PIN and Password</strong>.
-                                                       Pattern is a simple connect the dots, PIN is a numeric passcode and Password is exactly what it sounds like.
-                                                       <strong>NB:</strong> If you ever want to disable your password, navigate back to this section and select <strong>None</strong>.
-                                                </p>
-                                            </div>
-                                            <div class="large-6 columns panel" data-equalizer-watch>
-                                                <img src="http://placehold.it/320x480" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="step">
-                                        <div class="row" data-equalizer>
-                                            <div class="large-6 columns panel" data-equalizer-watch>
-                                                <p>
-                                                    3) After selecting and setting your security option, you may also se a lock timer which will cause your
-                                                       device to lock itself after a period of inactivity.
-                                                </p>
-                                            </div>
-                                            <div class="large-6 columns panel" data-equalizer-watch>
-                                                <img src="http://placehold.it/320x480" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--
-                                    <p>1) Go to <strong>Settings</strong></p>
-                                    <p>2) Under Personal, navigate to <strong>security</strong></p>
-                                    <img style="max-width:40%; max-height:40%" src="../Images/android-1.png" />
-                                    <p>3) Navigate to <strong>Screen Lock</strong></p>
-                                    <img style="max-width:40%; max-height:40%" src="../Images/android-2.png" />
-                                    <p>
-                                        Here you will be presented with different options: <strong>pattern, pin and password.</strong>
-                                        Pattern is a simple connect the dots, pin is a numeric passcode and password is exactly what it sounds like.
-                                    </p>
-                                    <img style="max-width:40%; max-height:40%" src="../Images/android-3.png" />
-                                    <p><strong>NB:</strong> If you ever want to disable a password, navigate back to this sections and select <strong>None</strong></p>
-                                    <p>4) After setting your security option, you can slo set a lock timer which will cause your device to lock itself after a set period of inactivity</p>
-                                    <img style="max-width:40%; max-height:40%" src="../Images/android-4.png" />
-                                    <p>5) You have secured your device and from now on will be promted to enter your password upon unlocking the screen.</p>
-                                        -->
                                 </div>
-                            </div>
-                            <div class="content" id="encryption">
-                                <h1 class="page-title">Encrypting data on your Android device</h1>
-                                <div class="info-body">
-                                    <div data-alert class="alert-box warning radius">
-                                        <strong style="color:black">WARNING</strong> please ensure you complete the following steps before attempting
-                                        to encrypt your device.
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <p>
+                                                2) Here you will be presented with different options: <strong>Pattern, PIN and Password</strong>.
+                                                Pattern is a simple connect the dots, PIN is a numeric passcode and Password is exactly what it sounds like.
+                                                <strong>NB:</strong> If you ever want to disable your password, navigate back to this section and select <strong>None</strong>.
+                                            </p>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
                                     </div>
-                                    <div class="warning-box">
-                                        <p>1) Back-up the data on your phone before attempting to encrypt it. This is a fallback in case
-                                           of data loss/corruption during the encryption process. If your phone is new, it is recommended 
-                                           you encrypt it before using it.</p>
-                                        <p>2) Have your device plugged into an external power souce with the charger during encryption. The process
-                                           may take up to an hour and if the battery runs out during encryption, your device may be damaged.</p>
-                                        <p>3) You should set up a resonable inactivity time out to lock your device when not in use.(See
-                                           <a href="/UwLockItDown/info/android.html">Setting up a password on your Android device</a> to see how this can be done).
-                                           Encrption protects the data on the device when it is locked and even when it is off.</p>
-                                    </div>
-                                    <h3>How to encrypt your phone:</h3>
-                                    <p>1) Ensure your device has a lock screen PIN or password. Refer to
-                                        <a href="/UwLockItDown/info/android.html">Setting up a password on your Android device</a> to see how.</p>
-                                    <p>2) Once you have a passowrd/PIN, go to settings. Navigate to "Security" and then to "Encryption". Select "Encrypt Phone".</p>
-                                    <p><img src="../Images/android-en-4.png" /></p>
-                                    <p><img src="../Images/android-en-5.png" /></p>
-                                    <p><img src="../Images/android-en-6.png" /></p>
-                                    <p>3) Your phone will then begin the encryption process which may take an hour or more and usually requires your device to be plugged in
-                                       to a charger.</p>
-                                    <p>4) Do not attempt to turn off your device or otherwise interrupt the encryption process as doing so could cause your data to become corrupted.</p>
                                 </div>
-                            </div>
-                            <div class="content" id="findPhone">
-                                <p>content</p>
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <p>
+                                                3) After selecting and setting your security option, you may also se a lock timer which will cause your
+                                                device to lock itself after a period of inactivity.
+                                            </p>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-                    </div>
-                    <div class="small-0 medium-2 large-2 columns hide-for-small">
-                        <div class="tab-holder">
-                            <dl class="tabs" data-tab data-options="deep_linking:true, scroll_to_content: false">
-                                <dd class="active"><a href="#password">Set up a password</a></dd>
-                                <dd><a href="#encryption">Encrypt your device</a></dd>
-                                <dd><a href="#findPhone">Enable phone locating software</a></dd>
-                            </dl>
+                        <div class="content" id="findPhone">
+                            <div class="info-body">
+
+                            </div>
+                            <p>content</p>
                         </div>
                     </div>
                 </div>
@@ -245,17 +172,6 @@
     <script src="../foundation-5.2.1/js/foundation.min.js"></script>
     <script>
         $(document).foundation();
-
-        $('dd').click(function () {
-            var title = $(this).text();
-            $('.page-title').text(title);
-            $('.current').text(title);
-        });
-        $('.make-change').click(function () {
-            var title = $(this).text();
-            $('.page-title').text(title);
-            $('.current').text(title);
-        });
     </script>
 </body>
 </html>

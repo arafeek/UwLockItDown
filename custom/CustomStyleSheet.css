@@ -102,6 +102,16 @@ color: #f7941d;
 {
     padding: 5px;
 }
+.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a 
+{
+-webkit-border-radius: 3px;
+border-radius: 3px;
+font-weight: normal;
+background: #008CBA;
+padding: 0.16667rem 0.88889rem;
+cursor: default;
+color: #fff;
+}
 
 .tab-holder
 {
