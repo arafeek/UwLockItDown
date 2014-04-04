@@ -1,4 +1,5 @@
-﻿
+﻿.android:hover
+
 .breadcrumbs
 {
     margin-bottom:0;
@@ -19,6 +20,11 @@ color: #f7941d;
 {
     display:inline-block;
     float:right;
+}
+[data-magellan-expedition] 
+{
+background: transparent;
+
 }
 .global-footer
 {
@@ -102,15 +108,13 @@ color: #f7941d;
 {
     padding: 5px;
 }
-.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a 
+.sub-nav dt a, .sub-nav dd a, .sub-nav li a 
 {
--webkit-border-radius: 3px;
+text-decoration: none;
+color: #252525;
+padding: 0.1875rem 1rem;
+background: #f7941d;
 border-radius: 3px;
-font-weight: normal;
-background: #008CBA;
-padding: 0.16667rem 0.88889rem;
-cursor: default;
-color: #fff;
 }
 
 .tab-holder
