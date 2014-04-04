@@ -5,35 +5,35 @@
 }
 .android-icon
 {
-    background-image:url(Images/android_logo_grayscale.png);
+    background-image:url(../Images/android_logo_grayscale.png);
 }
 .android-icon:hover
 {
-    background-image:url(Images/android_logo.png);
+    background-image:url(../Images/android_logo.png);
 }
 .bb-icon
 {
-    background-image:url(Images/blackberry_logo_grayscale.png);
+    background-image:url(../Images/blackberry_logo_grayscale.png);
 }
 .bb-icon:hover
 {
-    background-image:url(Images/blackberry_logo.png);
+    background-image:url(../Images/blackberry_logo.png);
 }
 .ios-icon
 {
-    background-image:url(Images/iphone_logo_grayscale.png);
+    background-image:url(../Images/iphone_logo_grayscale.png);
 }
 .ios-icon:hover
 {
-    background-image:url(Images/iphone_logo.png);
+    background-image:url(../Images/iphone_logo.png);
 }
 .win-icon
 {
-    background-image:url(Images/win_logo_grayscale.png);
+    background-image:url(../Images/win_logo_grayscale.png);
 }
 .win-icon:hover
 {
-    background-image:url(Images/win_logo.png);
+    background-image:url(../Images/win_logo.png);
 }
 
 .breadcrumbs
