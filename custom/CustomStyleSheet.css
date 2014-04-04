@@ -26,6 +26,7 @@ color: #f7941d;
     width:100%;
     background-color:#252525;
     bottom:0;
+    position:relative;
 }
 .header-logo
 {
