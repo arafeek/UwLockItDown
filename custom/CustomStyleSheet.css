@@ -9,7 +9,7 @@
 }
 .android-icon:hover
 {
-    background-image:url(../Images/android_logo.png);
+    background-image:url(../Images/android_logo_displaced.png);
 }
 .bb-icon
 {
@@ -17,7 +17,7 @@
 }
 .bb-icon:hover
 {
-    background-image:url(../Images/blackberry_logo.png);
+    background-image:url(../Images/blackberry_logo_displaced.png);
 }
 .ios-icon
 {
@@ -25,7 +25,7 @@
 }
 .ios-icon:hover
 {
-    background-image:url(../Images/iphone_logo.png);
+    background-image:url(../Images/iphone_logo_displaced.png);
 }
 .win-icon
 {
@@ -33,7 +33,7 @@
 }
 .win-icon:hover
 {
-    background-image:url(../Images/win_logo.png);
+    background-image:url(../Images/win_logo_displaced.png);
 }
 
 .breadcrumbs
@@ -85,13 +85,24 @@ background: transparent;
     margin-bottom:0;
 }
 
+.numbering
+{
+    background-color:#f7ac50;
+    border:2px solid #f7941d;
+    border-radius:6px;
+    font-weight:bold;
+    font-size:1rem;
+    color:#000;
+}
+
 .orbit-container 
 {
     width: 80%;
     margin: 10px auto;
 }
 
-.os-icon-container {
+.os-icon-container 
+{
     margin: auto;
     width: 80%;
     text-align: center;
@@ -119,6 +130,11 @@ background: transparent;
 {
     margin-top:20px;
 }
+.paragraph
+{
+    float:right;
+    width:80%;
+}
 .page-title
 {
     font-size:1.6rem;
@@ -128,6 +144,10 @@ background: transparent;
     border-radius:3px;
     margin-bottom:0;
 
+}
+.sub-nav dd
+{
+    font-size:1rem;
 }
 .section-header
 {

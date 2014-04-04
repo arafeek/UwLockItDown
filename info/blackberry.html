@@ -3,179 +3,279 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UWlockitdown - Blackberry</title>
+    <title>UWlockitdown - Android</title>
 
     <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
+
     <link href="../foundation-5.2.1/css/normalize.css" rel="stylesheet" />
     <link href="../foundation-5.2.1/css/foundation.css" rel="stylesheet" />
     <link href="../custom/CustomStyleSheet.css" rel="stylesheet" />
     <script src="../foundation-5.2.1/js/vendor/modernizr.js"></script>
 </head>
 <body>
-
-    <nav class="top-bar docs-bar hide-for-small" data-topbar>
-        <ul class="title-area">
-            <li class="name">
-                <h1><a href="/UwLockItDown">UWlockitdown</a></h1>
-            </li>
-            <li class="toggle-topbar menu-icon"><a href="#"></a></li>
-        </ul>
-
-        <section class="top-bar-section">
-            <!-- Right Nav Section -->
-            <ul class="right">
-                <li><a href="#">Twitter</a></li>
-                <li class="has-dropdown">
-                    <a href="#">Learn More</a>
-                    <ul class="dropdown">
-                        <li><a href="#">Passwords</a></li>
-                        <li><a href="#">Encryption</a></li>
-                        <li><a href="#">Losing your phone</a></li>
-                    </ul>
-                </li>
-                <li class="has-dropdown">
-                    <a href="#">Get Secure</a>
-                    <ul class="dropdown">
-                        <li><a href="#password">Set up a password</a></li>
-                        <li><a href="#encryption">Encrypt your device</a></li>
-                        <li><a href="#findPhone">Enable phone location software</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-    </nav><!--/Topbar-->
-
+    <div class="header-large">
+        <div class="row">
+            <div class=" large-12">
+                <nav class="top-bar hide-for-small" data-topbar>
+                    <div class="uw-logo left">
+                        <a href="http://uwaterloo.ca" style="width:169px">
+                            <img class="header-logo" style="width:169px; padding-left:10px; margin-right:25px" src="../Images/logo-uwsmall.png" />
+                        </a>
+                    </div>
+                    <section class="top-bar-section">
+                        <ul class="right">
+                            <li><h3 class="title" style="color:#F7941D; margin-top:5px">#UWlockitdown</h3></li>
+                        </ul>
+                    </section>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--/Topbar-->
     <div class="off-canvas-wrap">
         <div class="inner-wrap">
             <nav class="tab-bar show-for-small">
                 <section class="left-small">
-                    <a class="left-off-canvas-toggle menu-icon"><span>UWlockitdown</span></a>
+                    <a class="left-off-canvas-toggle menu-icon"><span></span></a>
+
+                </section>
+                <section class="middle tab-bar-section">
+                    <!-- <div class="uw-logo" style="display:inline-block">
+                         <a href="http://uwaterloo.ca" style="width:150px">
+                             <img class="header-logo" style="width:140px; margin-left:0; margin-right:25px; margin-top:-15px" src="../Images/logo-uwsmall.png" />
+                         </a>
+                     </div>
+                         -->
+                    <div class="middletab-bar-section" style="display:inline-block">
+                        <h1 class="title" style="color:#F7941D">#UWlockitdown</h1>
+                    </div>
                 </section>
 
-                <section class="right-small">
-                    <a class="right-off-canvas-toggle menu-icon"><span></span></a>
-                </section>
             </nav>
             <aside class="left-off-canvas-menu">
                 <ul class="off-canvas-list">
                     <li><a href="/UwLockItDown">Home</a></li>
-                    <li><a href="/UwLockItDown/info/android.html">Android</a></li>
-                    <li class="divider"></li>
                     <li><a href="/UwLockItDown/info/ios.html">iOS</a></li>
+                    <li class="divider"></li>
+                    <li><a href="/UwLockItDown/info/android.html">Android</a></li>
                     <li class="divider"></li>
                     <li><a href="/UwLockItDown/info/windowsphone.html">Windows Phone</a></li>
                 </ul>
             </aside>
-
-            <aside class="right-off-canvas-menu">
-                <ul class="off-canvas-list">
-                    <li><label>Get Secure</label></li>
-                    <li><a href="#password">Set up a password</a></li>
-                    <li><a href="#encryption">Encrypt your device</a></li>
-                    <li><a href="#findPhone">Enable phone location software</a></li>
-                    <li><label>Learn More</label></li>
-                    <li><a href="#">Passwords</a></li>
-                    <li><a href="#">Encryption</a></li>
-                    <li><a href="#">Losing your phone</a></li>
-                </ul>
-            </aside>
             <a class="exit-off-canvas" href="#"></a>
             <!--/miniBar-->
+
+
             <div id="content">
-                <div class="row">
-                    <div class="small-0 medium-2 large-2 columns hide-for-small">
+                <div class="section-header">
+                    <div class="row">
+                        <div class="large-12">
+                            <div class="title-holder">
+                                <h1 class="page-title">Blackberry</h1>
+                            </div>
+                            <div class="magellan-container" data-magellan-expedition="fixed">
+                                <dl class="sub-nav">
+                                    <dd data-magellan-arrival="password"><a href="#password">Set up a password</a></dd>
+                                    <dd data-magellan-arrival="findPhone"><a href="#findPhone">Enable phone location</a></dd>
+
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top:10px">
+                    <div class="small-0 medium-2 large-3 columns hide-for-small">
                         <div class="left-menu-holder">
                             <ul class="os-menu-left">
-                                <li><a href="/UwLockItDown/info/android.html"><img src="http://placehold.it/150x150" /></a>
-                                <li><a href="/UwLockItDown/info/ios.html"><img src="http://placehold.it/150x150" /></a>
-                                <li><a href="/UwLockItDown/info/windowsphone.html"><img src="http://placehold.it/150x150" /></a>
+                                <li><a href="/UwLockItDown/info/ios.html"><div class="ios-icon"></div></a>
+                                <li><a href="/UwLockItDown/info/android.html"><div class="android-icon"></div></a>
+                                <li><a href="/UwLockItDown/info/windowsphone.html"><div class="win-icon"></div></a>
                             </ul>
                         </div>
                     </div>
-                    <div class="small-12 medium-8 large-8 columns">
-                        <div class="tabs-content">
-                            <div class="content active" id="password">
-                                <h1 class="page-title">Setting up a password on your Blackberry device</h1>
-                                <div class="info-body">
-                                    <h3><u>Blackberry 10</u></h3>
-                                    <p>1) Go to <strong>Settings</strong> from the home screen</p>
-                                    <img src="../Images/bb-10-pas-1.jpg" />
-                                    <p>(<a href="#old">Screen doesn't look like this?</a>)</p>
-                                    <p>2) Select <strong>Security and Password</strong> followed by <strong>Device Password</strong></p>
-                                    <p>3) Set <strong>Device Password</strong> to <strong>ON</strong></p>
-                                    <img src="../Images/apple-pas-2.jpg" />
-                                    <p>4) Set <strong>Simple Password</strong> to <strong>ON</strong></p>
-                                    <p>5) Enter your desired password when prompted and then again after to confim</p>
-                                    <img style="margin-bottom:40px" src="../Images/bb-10-pas-2.png" />
 
-                                    <h3 id="old"><u>Older Blackberry Devices</u></h3>
-                                    <p>1) Select <strong>Options</strong> (spanner icon)</p>
-                                    <img src="../Images/bb-pas-1.jpg" />
-                                    <p>2) Scroll down the menu and select <strong>Security Options</strong></p>
-                                    <img src="../Images/bb-pas-2.jpg" />
-                                    <p>3) On the following screen, select <strong>General Settings</strong></p>
-                                    <img src="../Images/bb-pas-3.gif" />
-                                    <p>4) Set <strong>Password</strong> to <strong>Enabled</strong></p>
-                                    <p>5) On the screen that appears, enter your desired password. If a screen does not appear,
-                                       you may have already set a password for another application. That is your default password</p>
-                                    <p>6) Set your number of password attempts. This is the number of incorrect guesses you get before
-                                       your phone clears its memory. Be cautios when choosing a number</p>
-                                    <p>7) <strong>Security Timeout</strong> refers to the amount of time your device is inactive for before it requires a password unlock</p>
-                                    <p>8) Select yes for <strong>Prompt on Application Install</strong> if you want to be prompted for your password when installing applications</p>
-                                </div>
-                            </div>
-                            <div class="content" id="encryption">
-                                <h1 class="page-title">Encrypting data on your Blackberry device</h1>
-                                <div class="info-body">
-                                    <div data-alert class="alert-box warning radius">
-                                        <strong style="color:black">WARNING</strong> please ensure you complete the following steps before attempting
-                                        to encrypt your device.
+                    <!--Steps-->
+                    <div class="small-12 medium-10 large-9 columns">
+
+                        <div class="content">
+                            <div class="info-body">
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <h1 class="page-title" id="password">Set up a password (BB 10)</h1>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <span class="label numbering">1</span>
+                                            <div class="paragraph">
+                                                <p>
+                                                    Go to <strong>Settings</strong> from the home screen.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
                                     </div>
-                                    <div class="warning-box">
-                                        <p>
-                                            1) Back-up the data on your phone before attempting to encrypt it. This is a fallback in case
-                                            of data loss/corruption during the encryption process. If your phone is new, it is recommended
-                                            you encrypt it before using it.
-                                        </p>
-                                        <p>
-                                            2) Have your device plugged into an external power souce with the charger during encryption. The process
-                                            may take up to an hour and if the battery runs out during encryption, your device may be damaged.
-                                        </p>
-                                        <p>
-                                            3) You should set up a resonable inactivity time out to lock your device when not in use.(See
-                                            <a href="/UwLockItDown/info/blackberry.html">Setting up a password on your Blackberry device</a> to see how this can be done).
-                                            Encrption protects the data on the device when it is locked and even when it is off.
-                                        </p>
-                                    </div>
-                                    <h3>How to encrypt your phone:</h3>
-                                    <p>
-                                        To enable device encryption on a blackberry phone (only BB 10 or newer supported) navigate to <strong>Settings->Security->Encryption</strong> and 
-                                        switch device encryption to <strong>ON</strong>.
-                                    </p>
-                                    <img src="../Images/bb-10-en-1.png" />
-                                    <img src="../Images/bb-10-en-2.png" />
-                                    <img src="../Images/bb-10-en-3.png" />
                                 </div>
-                            </div>
-                            <div class="content" id="findPhone">
-                                <p>content</p>
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <span class="label numbering">2</span>
+                                            <div class="paragraph">
+                                                <p>
+                                                    Select <strong>Security and Password</strong> followed by <strong>Device Password</strong>.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <span class="label numbering">3</span>
+                                            <div class="paragraph">
+                                                <p>
+                                                    Set <strong>Device Password</strong> and <strong>Simple Password</strong> to <strong>ON</strong>.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <span class="label numbering">4</span>
+                                            <div class="paragraph">
+                                                <p>
+                                                    Enter your desired password when prompted and then again after to confim.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-                    </div>
-                    <div class="small-0 medium-2 large-2 columns hide-for-small">
-                        <div class="tab-holder">
-                            <dl class="tabs" data-tab data-options="deep_linking:true, scroll_to_content: false">
-                                <dd class="active"><a href="#password">Setting up a password</a></dd>
-                                <dd><a href="#encryption">Encrypting your device</a></dd>
-                                <dd><a href="#findPhone">Enabling phone locating software</a></dd>
-                            </dl>
+                        <div class="content">
+                            <div class="info-body">
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <h1 class="page-title" id="password">Set up a password (older devices)</h1>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <span class="label numbering">1</span>
+                                            <div class="paragraph">
+                                                <p>
+                                                    Select <strong>Options</strong> (spanner icon).
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <span class="label numbering">2</span>
+                                            <div class="paragraph">
+                                                <p>
+                                                    Scroll down the menu and select <strong>Security Options</strong>.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <span class="label numbering">3</span>
+                                            <div class="paragraph">
+                                                <p>
+                                                    On the following screen, select <strong>General Settings</strong>.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <span class="label numbering">4</span>
+                                            <div class="paragraph">
+                                                <p>
+                                                    Set <strong>Password</strong> to <strong>Enabled</strong>.
+                                                    On the screen that appears, enter your desired password. If a screen does not appear,
+                                                    you may have already set a password for another application. That is your default password.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <span class="label numbering">5</span>
+                                            <div class="paragraph">
+                                                <p>
+                                                    Set your number of password attempts. This is the number of incorrect guesses you get before
+                                                    your phone clears its memory. Be cautios when choosing a number
+                                                </p>
+                                                <p>
+                                                    <strong>Additional Options:</strong> <strong>Security Timeout</strong> refers to the amount of time your device is inactive for before it requires a password unlock.
+                                                    Select yes for <strong>Prompt on Application Install</strong> if you want to be prompted for your password when installing applications.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content" id="findPhone">
+                            <div class="info-body">
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <h1 class="page-title" id="password">Enable Phone Location</h1>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <p>
+                                                Content about finding your phone to come.
+                                            </p>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <div class="global-footer">
+        <div id="twitter-holder"></div>
+    </div>
 
     <script src="../foundation-5.2.1/js/vendor/jquery.js"></script>
     <script src="../foundation-5.2.1/js/foundation.min.js"></script>

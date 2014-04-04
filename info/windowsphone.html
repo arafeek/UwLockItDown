@@ -6,141 +6,192 @@
     <title>UWlockitdown - Windows Phone</title>
 
     <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
+
     <link href="../foundation-5.2.1/css/normalize.css" rel="stylesheet" />
     <link href="../foundation-5.2.1/css/foundation.css" rel="stylesheet" />
     <link href="../custom/CustomStyleSheet.css" rel="stylesheet" />
     <script src="../foundation-5.2.1/js/vendor/modernizr.js"></script>
 </head>
 <body>
-
-    <nav class="top-bar docs-bar hide-for-small" data-topbar>
-        <ul class="title-area">
-            <li class="name">
-                <h1><a href="/UwLockItDown">UWlockitdown</a></h1>
-            </li>
-            <li class="toggle-topbar menu-icon"><a href="#"></a></li>
-        </ul>
-
-        <section class="top-bar-section">
-            <!-- Right Nav Section -->
-            <ul class="right">
-                <li><a href="#">Twitter</a></li>
-                <li class="has-dropdown">
-                    <a href="#">Learn More</a>
-                    <ul class="dropdown">
-                        <li><a href="#">Passwords</a></li>
-                        <li><a href="#">Encryption</a></li>
-                        <li><a href="#">Losing your phone</a></li>
-                    </ul>
-                </li>
-                <li class="has-dropdown">
-                    <a href="#">Get Secure</a>
-                    <ul class="dropdown">
-                        <li><a href="#password">Set up a password</a></li>
-                        <li><a href="#encryption">Encrypt your device</a></li>
-                        <li><a href="#findPhone">Enable phone location software</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-    </nav><!--/Topbar-->
-
+    <div class="header-large">
+        <div class="row">
+            <div class=" large-12">
+                <nav class="top-bar hide-for-small" data-topbar>
+                    <div class="uw-logo left">
+                        <a href="http://uwaterloo.ca" style="width:169px">
+                            <img class="header-logo" style="width:169px; padding-left:10px; margin-right:25px" src="../Images/logo-uwsmall.png" />
+                        </a>
+                    </div>
+                    <section class="top-bar-section">
+                        <ul class="right">
+                            <li><h3 class="title" style="color:#F7941D; margin-top:5px">#UWlockitdown</h3></li>
+                        </ul>
+                    </section>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--/Topbar-->
     <div class="off-canvas-wrap">
         <div class="inner-wrap">
             <nav class="tab-bar show-for-small">
                 <section class="left-small">
-                    <a class="left-off-canvas-toggle menu-icon"><span>UWlockitdown</span></a>
+                    <a class="left-off-canvas-toggle menu-icon"><span></span></a>
+
+                </section>
+                <section class="middle tab-bar-section">
+                    <!-- <div class="uw-logo" style="display:inline-block">
+                         <a href="http://uwaterloo.ca" style="width:150px">
+                             <img class="header-logo" style="width:140px; margin-left:0; margin-right:25px; margin-top:-15px" src="../Images/logo-uwsmall.png" />
+                         </a>
+                     </div>
+                         -->
+                    <div class="middletab-bar-section" style="display:inline-block">
+                        <h1 class="title" style="color:#F7941D">#UWlockitdown</h1>
+                    </div>
                 </section>
 
-                <section class="right-small">
-                    <a class="right-off-canvas-toggle menu-icon"><span></span></a>
-                </section>
             </nav>
             <aside class="left-off-canvas-menu">
                 <ul class="off-canvas-list">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="/UwLockItDown">Home</a></li>
                     <li><a href="/UwLockItDown/info/ios.html">iOS</a></li>
                     <li class="divider"></li>
                     <li><a href="/UwLockItDown/info/blackberry.html">Blackberry</a></li>
                     <li class="divider"></li>
-                    <li><a href="/UwLockItDown/info.android.html">Android</a></li>
-                </ul>
-            </aside>
-
-            <aside class="right-off-canvas-menu">
-                <ul class="off-canvas-list">
-                    <li><label>Get Secure</label></li>
-                    <li><a href="#password">Set up a password</a></li>
-                    <li><a href="#encryption">Encrypt your device</a></li>
-                    <li><a href="#findPhone">Enable phone location software</a></li>
-                    <li><label>Learn More</label></li>
-                    <li><a href="#">Passwords</a></li>
-                    <li><a href="#">Encryption</a></li>
-                    <li><a href="#">Losing your phone</a></li>
+                    <li><a href="/UwLockItDown/info/android.html">Android</a></li>
                 </ul>
             </aside>
             <a class="exit-off-canvas" href="#"></a>
             <!--/miniBar-->
+
+
             <div id="content">
-                <div class="row">
-                    <div class="small-0 medium-2 large-2 columns hide-for-small">
+                <div class="section-header">
+                    <div class="row">
+                        <div class="large-12">
+                            <div class="title-holder">
+                                <h1 class="page-title">Windows Phone</h1>
+                            </div>
+                            <div class="magellan-container" data-magellan-expedition="fixed">
+                                <dl class="sub-nav">
+                                    <dd data-magellan-arrival="password"><a href="#password">Set up a password</a></dd>
+                                    <dd data-magellan-arrival="findPhone"><a href="#findPhone">Enable phone location</a></dd>
+
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top:10px">
+                    <div class="small-0 medium-2 large-3 columns hide-for-small">
                         <div class="left-menu-holder">
                             <ul class="os-menu-left">
-                                <li><a href="/UwLockItDown/info/ios.html"><img src="http://placehold.it/150x150" /></a>
-                                <li><a href="/UwLockItDown/info/blackberry.html"><img src="http://placehold.it/150x150" /></a>
-                                <li><a href="/UwLockItDown/info/android.html"><img src="http://placehold.it/150x150" /></a>
+                                <li><a href="/UwLockItDown/info/ios.html"><div class="ios-icon"></div></a>
+                                <li><a href="/UwLockItDown/info/blackberry.html"><div class="bb-icon"></div></a>
+                                <li><a href="/UwLockItDown/info/android.html"><div class="android-icon"></div></a>
                             </ul>
                         </div>
                     </div>
-                    <div class="small-12 medium-8 large-8 columns">
-                        <div class="tabs-content">
-                            <div class="content active" id="password">
-                                <h1 class="page-title">Setting up a password on your Windows Phone</h1>
-                                <div class="info-body">
-                                    <p>1) In the App list, Go to <strong>Settings -> Lock screen</strong></p>
-                                    <img src="../Images/win-pas-1.gif" />
-                                    <p>2) Slide the <strong>Password</strong> button to the on position</p>
-                                    <p>
-                                        3) Enter your desired password in the <strong>New Password</strong> section and then re-enter it
-                                        in the <strong>Confirm Password</strong> text box
-                                    </p>
-                                    <img src="../Images/win-pas-2.jpg" />
-                                    <p>4) Tap <strong>Done</strong> to save your changes</p>
-                                    <p>
-                                        <strong>Tip:</strong> You may want to set a time limit for the password requirement. This locks the phone after the desired length of time.
-                                        To do this, tap <strong>Require a Password After</strong> and select the desired length of time
-                                    </p>
+
+                    <!--Steps-->
+                    <div class="small-12 medium-10 large-9 columns">
+
+                        <div class="content">
+                            <div class="info-body">
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <h1 class="page-title" id="password">Set up a password</h1>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <span class="label numbering">1</span>
+                                            <div class="paragraph">
+                                                <p>
+                                                    In the App list, Go to <strong>Settings -> Lock screen</strong>.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="content" id="encryption">
-                                <h1 class="page-title">Encrypting data on your Windows Phone</h1>
-                                <div class="info-body">
-                                    <h3>Notice:</h3>
-                                    <p>
-                                        Windows Phone currently only supports device encryption when using an exchange ActiveSync account.
-                                        Talk to your administrative department about enabling this feature.
-                                    </p>
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <span class="label numbering">2</span>
+                                            <div class="paragraph">
+                                                <p>
+                                                    Slide the <strong>Password</strong> button to the on position.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="content" id="findPhone">
-                                <p>content</p>
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <span class="label numbering">3</span>
+                                            <div class="paragraph">
+                                                <p>
+                                                    Enter your desired password in the <strong>New Password</strong> section and then re-enter it
+                                                    in the <strong>Confirm Password</strong> text box.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <span class="label numbering">4</span>
+                                            <div class="paragraph">
+                                                <p>
+                                                    Tap <strong>Done</strong> to save your changes.
+                                                    <strong>Tip:</strong> You may want to set a time limit for the password requirement. This locks the phone after the desired length of time.
+                                                    To do this, tap <strong>Require a Password After</strong> and select the desired length of time.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-                    </div>
-                    <div class="small-0 medium-2 large-2 columns hide-for-small">
-                        <div class="tab-holder">
-                            <dl class="tabs" data-tab data-options="deep_linking:true, scroll_to_content: false">
-                                <dd class="active"><a href="#password">Setting up a password</a></dd>
-                                <dd><a href="#encryption">Encrypting your device</a></dd>
-                                <dd><a href="#findPhone">Enabling phone locating software</a></dd>
-                            </dl>
+                        <div class="content" id="findPhone">
+                            <div class="info-body">
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <h1 class="page-title" id="password">Enable Phone Location</h1>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <p>
+                                                Content about finding your phone to come.
+                                            </p>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <div class="global-footer">
+        <div id="twitter-holder"></div>
+    </div>
 
     <script src="../foundation-5.2.1/js/vendor/jquery.js"></script>
     <script src="../foundation-5.2.1/js/foundation.min.js"></script>

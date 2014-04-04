@@ -3,58 +3,54 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UWlockitdown - iOS</title>
+    <title>UWlockitdown - iPhone</title>
 
     <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
+
     <link href="../foundation-5.2.1/css/normalize.css" rel="stylesheet" />
     <link href="../foundation-5.2.1/css/foundation.css" rel="stylesheet" />
     <link href="../custom/CustomStyleSheet.css" rel="stylesheet" />
     <script src="../foundation-5.2.1/js/vendor/modernizr.js"></script>
 </head>
 <body>
-
-    <nav class="top-bar docs-bar hide-for-small" data-topbar>
-        <ul class="title-area">
-            <li class="name">
-                <h1><a href="/UwLockItDown">UWlockitdown</a></h1>
-            </li>
-            <li class="toggle-topbar menu-icon"><a href="#"></a></li>
-        </ul>
-
-        <section class="top-bar-section">
-            <!-- Right Nav Section -->
-            <ul class="right">
-                <li><a href="#">Twitter</a></li>
-                <li class="has-dropdown">
-                    <a href="#">Learn More</a>
-                    <ul class="dropdown">
-                        <li><a href="#">Passwords</a></li>
-                        <li><a href="#">Encryption</a></li>
-                        <li><a href="#">Losing your phone</a></li>
-                    </ul>
-                </li>
-                <li class="has-dropdown">
-                    <a href="#">Get Secure</a>
-                    <ul class="dropdown">
-                        <li><a href="#password">Set up a password</a></li>
-                        <li><a href="#encryption">Encrypt your device</a></li>
-                        <li><a href="#findPhone">Enable phone location software</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-    </nav><!--/Topbar-->
-
+    <div class="header-large">
+        <div class="row">
+            <div class=" large-12">
+                <nav class="top-bar hide-for-small" data-topbar>
+                    <div class="uw-logo left">
+                        <a href="http://uwaterloo.ca" style="width:169px">
+                            <img class="header-logo" style="width:169px; padding-left:10px; margin-right:25px" src="../Images/logo-uwsmall.png" />
+                        </a>
+                    </div>
+                    <section class="top-bar-section">
+                        <ul class="right">
+                            <li><h3 class="title" style="color:#F7941D; margin-top:5px">#UWlockitdown</h3></li>
+                        </ul>
+                    </section>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--/Topbar-->
     <div class="off-canvas-wrap">
         <div class="inner-wrap">
             <nav class="tab-bar show-for-small">
                 <section class="left-small">
-                    <a class="left-off-canvas-toggle menu-icon"><span>UWlockitdown</span></a>
+                    <a class="left-off-canvas-toggle menu-icon"><span></span></a>
+
+                </section>
+                <section class="middle tab-bar-section">
+                    <!-- <div class="uw-logo" style="display:inline-block">
+                         <a href="http://uwaterloo.ca" style="width:150px">
+                             <img class="header-logo" style="width:140px; margin-left:0; margin-right:25px; margin-top:-15px" src="../Images/logo-uwsmall.png" />
+                         </a>
+                     </div>
+                         -->
+                    <div class="middletab-bar-section" style="display:inline-block">
+                        <h1 class="title" style="color:#F7941D">#UWlockitdown</h1>
+                    </div>
                 </section>
 
-                <section class="right-small">
-                    <a class="right-off-canvas-toggle menu-icon"><span></span></a>
-                </section>
             </nav>
             <aside class="left-off-canvas-menu">
                 <ul class="off-canvas-list">
@@ -66,97 +62,104 @@
                     <li><a href="/UwLockItDown/info/windowsphone.html">Windows Phone</a></li>
                 </ul>
             </aside>
-
-            <aside class="right-off-canvas-menu">
-                <ul class="off-canvas-list">
-                    <li><label>Get Secure</label></li>
-                    <li><a href="#password">Set up a password</a></li>
-                    <li><a href="#encryption">Encrypt your device</a></li>
-                    <li><a href="#findPhone">Enable phone location software</a></li>
-                    <li><label>Learn More</label></li>
-                    <li><a href="#">Passwords</a></li>
-                    <li><a href="#">Encryption</a></li>
-                    <li><a href="#">Losing your phone</a></li>
-                </ul>
-            </aside>
             <a class="exit-off-canvas" href="#"></a>
             <!--/miniBar-->
+
+
             <div id="content">
-                <div class="row">
-                    <div class="small-0 medium-2 large-2 columns hide-for-small">
+                <div class="section-header">
+                    <div class="row">
+                        <div class="large-12">
+                            <div class="title-holder">
+                                <h1 class="page-title">iPhone</h1>
+                            </div>
+                            <div class="magellan-container" data-magellan-expedition="fixed">
+                                <dl class="sub-nav">
+                                    <dd data-magellan-arrival="password"><a href="#password">Set up a password</a></dd>
+                                    <dd data-magellan-arrival="findPhone"><a href="#findPhone">Enable phone location</a></dd>
+
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top:10px">
+                    <div class="small-0 medium-2 large-3 columns hide-for-small">
                         <div class="left-menu-holder">
                             <ul class="os-menu-left">
-                                <li><a href="#"><img src="http://placehold.it/150x150" /></a>
-                                <li><a href="#"><img src="http://placehold.it/150x150" /></a>
-                                <li><a href="#"><img src="http://placehold.it/150x150" /></a>
+                                <li><a href="/UwLockItDown/info/android.html"><div class="android-icon"></div></a>
+                                <li><a href="/UwLockItDown/info/blackberry.html"><div class="bb-icon"></div></a>
+                                <li><a href="/UwLockItDown/info/windowsphone.html"><div class="win-icon"></div></a>
                             </ul>
                         </div>
                     </div>
-                    <div class="small-12 medium-8 large-8 columns">
-                        <div class="tabs-content">
-                            <div class="content active" id="password">
-                                <h1 class="page-title">Setting up a password on your iOS device</h1>
-                                <div class="info-body">
-                                    <p>1) Go to <strong>Settings</strong></p>
-                                    <p>2) Select <strong>General</strong></p>
-                                    <img src="../Images/apple-pas-1.jpg" />
-                                    <p>3) Navigate to <strong>Passcode Lock</strong></p>
-                                    <img src="../Images/apple-pas-2.jpg" />
-                                    <p>
-                                        If you are using the iPhone 5s, you can also set fingerprint scanning as a security method. To do this,
-                                        under <strong>General</strong> select <strong>TouchID and Passcode</strong> and then select <strong>TouchID.</strong>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="content" id="encryption">
-                                <h1 class="page-title">Encrypting data on your iOS device</h1>
-                                <div class="info-body">
-                                    <div data-alert class="alert-box warning radius">
-                                        <strong style="color:black">WARNING</strong> please ensure you complete the following steps before attempting
-                                        to encrypt your device.
+
+                    <!--Steps-->
+                    <div class="small-12 medium-10 large-9 columns">
+
+                        <div class="content">
+                            <div class="info-body">
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <h1 class="page-title" id="password">Set up a password</h1>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <span class="label numbering">1</span>
+                                            <div class="paragraph">
+                                                <p>
+                                                    Open the <strong>Settings</strong> menu and navigate to <strong>General -> Passcode Lock</strong>.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
                                     </div>
-                                    <div class="warning-box">
-                                        <p>
-                                            1) Back-up the data on your phone before attempting to encrypt it. This is a fallback in case
-                                            of data loss/corruption during the encryption process. If your phone is new, it is recommended
-                                            you encrypt it before using it.
-                                        </p>
-                                        <p>
-                                            2) Have your device plugged into an external power souce with the charger during encryption. The process
-                                            may take up to an hour and if the battery runs out during encryption, your device may be damaged.
-                                        </p>
-                                        <p>
-                                            3) You should set up a resonable inactivity time out to lock your device when not in use.(See
-                                            <a href="/UwLockItDown/info/ios.html">Setting up a password on your iOS device</a> to see how this can be done).
-                                            Encrption protects the data on the device when it is locked and even when it is off.
-                                        </p>
-                                    </div>
-                                    <h3>How to encrypt your phone:</h3>
-                                    <p>
-                                        1) As an iOS user, once you have a passcode lock on your device, your data is automatically encrypted. To see how to set a passcode lock
-                                           refer to <a href="/UwLockItDown/info/ios.html">Setting up a password on your iOS device</a>.
-                                    </p>                     
                                 </div>
-                            </div>
-                            <div class="content" id="findPhone">
-                                <p>content</p>
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <span class="label numbering">2</span>
+                                            <div class="paragraph">
+                                                <p>
+                                                    Select <strong>Turn Passcode On</strong> and enter your desired 4 didgit code.
+                                                    <strong>NB:</strong> If you are using the iPhone 5s you can set up a fingerprint lock.
+                                                                         Setup for this can be found under <strong>General -> TouchID and Passcode -> TouchID</strong>.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="small-0 medium-2 large-2 columns hide-for-small">
-                        <div class="tab-holder">
-                            <dl class="tabs" data-tab data-options="deep_linking:true, scroll_to_content: false">
-                                <dd class="active"><a href="#password">Setting up a password</a></dd>
-                                <dd><a href="#encryption">Encrypting your device</a></dd>
-                                <dd><a href="#findPhone">Enabling phone locating software</a></dd>
-                            </dl>
+                        <div class="content" id="findPhone">
+                            <div class="info-body">
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <h1 class="page-title" id="password">Enable Phone Location</h1>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <p>
+                                                Content about finding your phone to come.
+                                            </p>
+                                        </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <img src="http://placehold.it/320x480" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <div class="global-footer">
+        <div id="twitter-holder"></div>
+    </div>
 
     <script src="../foundation-5.2.1/js/vendor/jquery.js"></script>
     <script src="../foundation-5.2.1/js/foundation.min.js"></script>
