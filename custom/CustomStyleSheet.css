@@ -64,7 +64,7 @@ background: transparent;
 }
 .global-footer
 {
-    height:60px;
+    height:30px;
     width:100%;
     background-color:#252525;
     bottom:0;
@@ -193,6 +193,23 @@ border-radius: 3px;
 
     font-size:1.1rem;
 }
+  .top-bar-section ul li:hover:not(.has-form) > a 
+  {
+    background: #353535;
+    color: #f7941d; 
+
+  }
+.top-bar-section li:not(.has-form) a:not(.button):hover 
+{
+    background:#353535; 
+}
+
+.top-bar-section ul li a
+{
+
+    color: #f7941d; 
+
+}
 .title-holder
 {
     margin:15px 0;
@@ -210,12 +227,12 @@ border-radius: 3px;
 .top-bar-section ul li
 {
     height:69px;
+    margin-left:15px;
 }
 .top-bar-section li:not(.has-form) a:not(.button) 
 {
 background: #252525;
 }
-
 .warning-box
 {
     border-right:1px solid #ededed;
