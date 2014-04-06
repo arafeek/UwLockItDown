@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UWlockitdown - Windows Phone</title>
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
 
     <link href="../foundation-5.2.1/css/normalize.css" rel="stylesheet" />
@@ -173,7 +173,10 @@
             </div>
         </div>
     </div>
-    <div class="global-footer">
+    <div class="global-footer hide-for-small" style="position:fixed">
+        <div id="twitter-holder"></div>
+    </div>
+    <div class="global-footer show-for-small" style="height:60px">
         <div id="twitter-holder"></div>
     </div>
 
