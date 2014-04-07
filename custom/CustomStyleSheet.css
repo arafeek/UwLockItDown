@@ -241,12 +241,12 @@ background: #252525;
 }
 .twitter-btn
 {
-    padding:3px 7px;
+    padding:10px;
     background-color:#252525;
-    border-radius:3px;
+    border-radius:84px;
     position:fixed;
     opacity:0.75;
-    top:60px;
+    bottom:60px;
 }
 
 
