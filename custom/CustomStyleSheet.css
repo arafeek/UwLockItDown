@@ -247,6 +247,7 @@ background: #252525;
     position:fixed;
     opacity:0.75;
     bottom:60px;
+    z-index:500;
 }
 
 
